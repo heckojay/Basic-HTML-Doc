@@ -1,0 +1,19 @@
+site_name: MkDocs HTML Demo
+site_url: https://htmlDemo.ca
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+      primary: indigo
+      accent: indigo
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+      primary: white
+      accent: white

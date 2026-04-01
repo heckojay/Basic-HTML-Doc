@@ -1,5 +1,14 @@
-site_name: MkDocs HTML Demo
+site_name: HTML Basics Demo
 site_url: https://htmlDemo.ca
+
+nav:
+  - Home: index.md
+  - Setup: VsCode Installation.md
+  - Your First Website: Basic HTML.md
+  - Detailing: CSS Basics.md
+  - Seeing Results: Live Server.md
+  - Glossary: glossary.md
+  - Troubleshooting: troubleshooting.md
 theme:
   name: material
   font:

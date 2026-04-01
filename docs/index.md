@@ -29,7 +29,7 @@ If you are already familiar with HTML, VS Code, and GitHub from prior experience
 
 To follow these instructions, you will need:
 
-- A computer with either Windows, macOS or Linux operating system
+- A computer with Windows operating system
 - A GitHub account
 - Google Chrome
 

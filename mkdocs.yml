@@ -3,7 +3,7 @@ site_url: https://htmlDemo.ca
 
 nav:
   - Home: index.md
-  - Setup: VsCode Installation.md
+  - Setup: VsCode-Setup/VsCode-Installation.md
   - Your First Website: Basic-HTML/Basic-HTML.md
   - Detailing: CSS Basics.md
   - Seeing Results: Live Server.md

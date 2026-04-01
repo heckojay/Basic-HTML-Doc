@@ -2,7 +2,7 @@
 
 ## Overview
 
-HTML is the standard markup language used for displaying documents in a web browser. This guide demonstrates the fundamentals of building a basic website. This includes a navbar, headers, paragraphs, and footers.
+HTML is the standard markup language used for displaying documents in a web browser. This guide demonstrates the fundamentals of building a basic website. Topics include: headers,paragraphs, lists, links, and images.
 
 ## Creating The Project Folder
 
@@ -26,7 +26,7 @@ Before building your website, you need a dedicated folder to store all your file
 
     ![File Explorer](images/stp3.png)
 
-4. **Enter** a name.
+4. **Enter** a name. Ensure to *not* include *symbols* or *numbers* in your folder name.
 
     ![File Explorer](images/stp4.png)
 
@@ -35,13 +35,13 @@ Before building your website, you need a dedicated folder to store all your file
 
 ## Creating The Home Page
 
-At this point, you should have an empty folder and *should* be aware of the location of it.
+At this point, you should have an empty folder and *should* be aware of the location of it. 
 
-1. **Click** on the search function and **Enter** [VSC].
+1. **Click** on the search function and **Enter** [VSC]. This will take you to a file explorer prompt.
 
       ![File Explorer](images/stp5.gif)
 
-2. **Click** [Open Folder].
+2. **Click** [Open Folder]. 
 
       ![File Explorer](images/stp6.png)
 
@@ -55,3 +55,46 @@ At this point, you should have an empty folder and *should* be aware of the loca
 4. **Click** on the [New File] Icon and **Enter** "index.html".
 
       ![File Explorer](images/stp8.png)
+
+## HTML Basics
+
+### Template
+
+Vscode is a major help due to the simplicity and extensions it has. For example, Vscode allows a simple template to start off with.
+
+1. **Enter** an [!]. This generated template will provide the basics in order to load the website.
+
+      ![File Explorer](images/stp9.gif)
+
+    ??? note "What Is The '!'?"
+        The [!] auto generates a template thanks to [Emmet], a *built-in* extension to Vscode.
+
+### Creating Headers
+
+1. **Enter** an [`<h1>`]. This is a *opening tag*. Vscode will end the *tag* automatically upon closing it with [>]. Writing after the [>], will display the text you write. This is a *header* and can be used as titles, section headings, or sub-sections.
+
+      ![VsCode](images/stp10.png)
+
+    ??? info "What Does The Tag Mean?"
+        Everything together in [`<h1>`] is called a tag. The [<] marks the *start of the opening tag*. [h] stands for *header* while the [1] (can be any number from 1-6) stands for the level or size, and the [>] marks the end of the opening *tag*.
+
+### Creating Paragraphs
+
+1. **Enter** an [`<p>`]. This is a *paragraph* tag used for general text.
+
+      ![VsCode](images/stp11.png)
+
+### Creating Lists
+
+1. **Enter** an [`<ul>`] **close** the opening tag, and **press** enter to create a space between the two tags. This is defining an *unordered* list. This is the same as a list of bullet points.
+
+      ![VsCode](images/stp12.gif)
+
+2. In the space between, **enter** a [`<li>`]. After the opening tag, write your desired text and *ensure* it has the closing tag after your text.
+
+      ![VsCode](images/stp13.gif)
+
+    ??? question "Do I Need The [`<ul>`]?"
+        You do *not* need the [`<ul>`]. However, including it is considered good practice and supports clean code.
+
+

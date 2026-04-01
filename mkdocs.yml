@@ -4,11 +4,12 @@ site_url: https://htmlDemo.ca
 nav:
   - Home: index.md
   - Setup: VsCode Installation.md
-  - Your First Website: Basic HTML.md
+  - Your First Website: Basic-HTML/Basic-HTML.md
   - Detailing: CSS Basics.md
   - Seeing Results: Live Server.md
   - Glossary: glossary.md
   - Troubleshooting: troubleshooting.md
+
 theme:
   name: material
   font:
@@ -26,3 +27,7 @@ theme:
         name: Dark Mode
       primary: white
       accent: white
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details

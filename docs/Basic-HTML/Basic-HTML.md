@@ -2,7 +2,7 @@
 
 ## Overview
 
-HTML is the standard markup language used for displaying documents in a web browser. This guide demonstrates the fundamentals of building a basic website. Topics include: headers, paragraphs, lists, links, and images.
+HTML is the standard markup language used for displaying documents in a [web browser](../glossary.md#Web-Browser). This guide demonstrates the fundamentals of building a basic website. Topics include: headers, paragraphs, lists, links, and images.
 
 ## Creating The Project Folder
 
@@ -53,15 +53,15 @@ At this point, you should have an empty folder and *should* be aware of the loca
     ??? warning "I Can't Find My Folder!"
         Tough Luck, Shouda Followed The Tutorial Buddy.
 
-4. **Click** on the [New File] Icon and **Enter** "index.html".
+4. **Click** on the [New File] :material-file-plus: Icon and **Enter** "index.html".
 
       ![File Explorer](images/stp8.png)
 
 ## HTML Basics
 
-### Template
+### Creating a Template
 
-Vscode is a major help due to the simplicity and extensions it has. 
+Vscode is a major help due to the simplicity and [extensions](../glossary.md#extention) it has. 
 For example, Vscode allows a simple template to start off with.
 
 1. **Enter** an [!]. <br> This generated template will provide the basics in order to load the website.
@@ -69,12 +69,12 @@ For example, Vscode allows a simple template to start off with.
       ![VsCode](images/stp9.gif)
 
     ??? note "What Is The '!'?"
-        The [!] auto generates a template thanks to [Emmet], a *built-in* extension to Vscode.
+        The [!] auto generates a template thanks to [Emmet](../glossary.md#emmet), a *built-in* extension to Vscode.
 
 ### Creating Headers
 
-1. **Enter** an [`<h1>`] *in between* the body. Vscode will end the *tag* automatically upon closing it with [>]. Writing after the [>], will display the text you write. <br> This is a *opening tag*.
-This is a *header* and can be used as titles, section headings, or sub-sections.
+1. **Enter** an [`<h1>`] *in between* the body. Vscode will end the *tag* automatically upon closing it with [>]. Writing after the [>], will display the text you write. <br> This is called an *opening tag*.
+The [`<h1>`] is a *header* tag and can be used as titles, section headings, or sub-sections.
 
       ![VsCode](images/stp10.png)
 
@@ -96,7 +96,7 @@ This is a *header* and can be used as titles, section headings, or sub-sections.
     ??? question "What Is An Unordered List?"
         An unordered list is *not* in order and you may know them as bullets.
 
-2. In the space between, **enter** a [`<li>`]. After the opening tag, write your desired text and *ensure* it has the closing tag after your text.
+2. In the space between, **enter** a [`<li>`]. <br> After the opening tag, write your desired text and *ensure* it has the closing tag after your text.
 
       ![VsCode](images/stp13.gif)
 
@@ -117,7 +117,7 @@ This is a *header* and can be used as titles, section headings, or sub-sections.
       ![VsCode](images/stp15.png)
 
     ??? info "What Does The Tag Mean?"
-        [`src=`] means that the computer should look for links and image paths within your computer or through the internet.
+        [`src=`] means that the computer should look for links and image [paths](../glossary.md#file-path) within your computer or through the internet.
 
 3. **Grab** a image link from the internet and **Copy** it using [Ctrl^C] or [right clicking] and selecting copy.
 
@@ -126,7 +126,7 @@ This is a *header* and can be used as titles, section headings, or sub-sections.
     ??? tip "What Is an Easy Way To Do This?"
         The easiest way is to go to Google and look for the desired image, opening it in a new tab, and copying the link.
 
-4. **Enter** the link after [`src=`] (and don't forget to close the tag with [>]!).
+4. **Enter** the link after [`src=`]. <br> (and don't forget to close the tag with [>]!).
 
       ![VsCode](images/stp17.png)
 

@@ -21,8 +21,10 @@ VS Code is the editor you will use to write all of your HTML code.
 
 4. Accept the licence agreement and click **Next**.
    ![VSSetup](Images/step4.png)
-5. On the _Select Additional Tasks_ screen, check the box labelled **Add to PATH** (recommended).
+
+5. On the _Select Additional Tasks_ screen, check the box labelled **Add to PATH**.
    ![VSSetup](Images/step5.png)
+
 6. Once both boxes has been selected, click **Next**, then **Install**.
    ![VSSetup](Images/step6.png)
 7. Click **Finish** to launch VS Code.

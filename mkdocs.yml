@@ -6,7 +6,7 @@ nav:
   - Setup: VsCode-Setup/VsCode-Installation.md
   - Your First Website: Basic-HTML/Basic-HTML.md
   - Detailing: CSS Basics.md
-  - Seeing Results: Live Server.md
+  - Seeing Results: Live-Server/Live-Server.md
   - Glossary: glossary.md
   - Troubleshooting: troubleshooting.md
 

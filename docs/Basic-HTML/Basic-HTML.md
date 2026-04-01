@@ -6,7 +6,7 @@ HTML is the standard markup language used for displaying documents in a [web bro
 
 ## Creating The Project Folder
 
-Before building your website, you need a dedicated folder to store all your files. Doing so encourages cleanliness and easier management of your website.
+Before building your website, you may need a dedicated folder to store all your files. Doing so encourages cleanliness and easier management of your website.
 
 1. **Open** File Explorer by **Clicking** on File Explorer.
 
@@ -53,7 +53,7 @@ At this point, you should have an empty folder and *should* be aware of the loca
     ??? warning "I Can't Find My Folder!"
         Tough Luck, Shouda Followed The Tutorial Buddy.
 
-4. **Click** on the [New File] :material-file-plus: Icon and **Enter** "index.html".
+4. **Click** on the [New File] :material-file-plus: icon and **Enter** "index.html".
 
       ![File Explorer](images/stp8.png)
 
@@ -132,3 +132,6 @@ The [`<h1>`] is a *header* tag and can be used as titles, section headings, or s
 
     ??? warning "My Image Does Not Work!"
         idk
+
+## Conclusion
+

@@ -20,13 +20,14 @@ Before building your website, you need a dedicated folder to store all your file
     ![File Explorer](images/stp2.png)
 
     ??? question "Why Use My Drive?"
-        Why do I suggest your drive instead of Documents or OneDrive? This is to simplify the searching process in order to find your website and **especially** avoid conflicts with OneDrive.
+        Why do I suggest your drive instead of Documents or OneDrive? 
+        This is to simplify the searching process in order to find your website and **especially** avoid conflicts with OneDrive.
 
 3. **Click** the [New] dropdown and **Click** [Create].
 
     ![File Explorer](images/stp3.png)
 
-4. **Enter** a name. Ensure to *not* include *symbols* or *numbers* in your folder name.
+4. **Enter** a name. <br> Ensure to *not* include *symbols* or *numbers* in your folder name.
 
     ![File Explorer](images/stp4.png)
 
@@ -41,7 +42,7 @@ At this point, you should have an empty folder and *should* be aware of the loca
 
       ![File Explorer](images/stp5.gif)
 
-2. **Click** [Open Folder]. This will take you to a file explorer prompt.
+2. **Click** [Open Folder]. <br> This will take you to a file explorer prompt.
 
       ![File Explorer](images/stp6.png)
 
@@ -60,9 +61,10 @@ At this point, you should have an empty folder and *should* be aware of the loca
 
 ### Template
 
-Vscode is a major help due to the simplicity and extensions it has. For example, Vscode allows a simple template to start off with.
+Vscode is a major help due to the simplicity and extensions it has. 
+For example, Vscode allows a simple template to start off with.
 
-1. **Enter** an [!]. This generated template will provide the basics in order to load the website.
+1. **Enter** an [!]. <br> This generated template will provide the basics in order to load the website.
 
       ![VsCode](images/stp9.gif)
 
@@ -71,7 +73,8 @@ Vscode is a major help due to the simplicity and extensions it has. For example,
 
 ### Creating Headers
 
-1. **Enter** an [`<h1>`] *in between* the body. This is a *opening tag*. Vscode will end the *tag* automatically upon closing it with [>]. Writing after the [>], will display the text you write. This is a *header* and can be used as titles, section headings, or sub-sections.
+1. **Enter** an [`<h1>`] *in between* the body. Vscode will end the *tag* automatically upon closing it with [>]. Writing after the [>], will display the text you write. <br> This is a *opening tag*.
+This is a *header* and can be used as titles, section headings, or sub-sections.
 
       ![VsCode](images/stp10.png)
 
@@ -80,13 +83,13 @@ Vscode is a major help due to the simplicity and extensions it has. For example,
 
 ### Creating Paragraphs
 
-1. **Enter** an [`<p>`]. This is a *paragraph* tag used for general text.
+1. **Enter** an [`<p>`]. <br> This is a *paragraph* tag used for general text.
 
       ![VsCode](images/stp11.png)
 
 ### Creating Lists
 
-1. **Enter** an [`<ul>`], **close** the opening tag, and **press** enter to create a space between the two tags. This action is defining an *unordered* list. 
+1. **Enter** an [`<ul>`], **close** the opening tag, and **press** enter to create a space between the two tags. <br> This action is defining an *unordered* list. 
 
       ![VsCode](images/stp12.gif)
 
@@ -105,7 +108,7 @@ Vscode is a major help due to the simplicity and extensions it has. For example,
 
 #### Utilizing *Online* Images
 
-1. **Enter** an [`<img`], and do *not* close it. This is the opening of the img tag that tells the computer that you want an image here.
+1. **Enter** an [`<img`], and do *not* close it. <br> This is the opening of the img tag that tells the computer that you want an image here.
 
       ![VsCode](images/stp14.png)
 

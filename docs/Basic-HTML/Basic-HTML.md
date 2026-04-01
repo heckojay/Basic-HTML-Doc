@@ -125,7 +125,7 @@ Vscode is a major help due to the simplicity and extensions it has. For example,
 
 4. **Enter** the link after [`src=`] (and don't forget to close the tag with [>]!).
 
-      ![VsCode](images/stp17.jpg)
+      ![VsCode](images/stp17.png)
 
     ??? warning "My Image Does Not Work!"
         idk

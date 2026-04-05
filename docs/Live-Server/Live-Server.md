@@ -26,9 +26,16 @@ Assuming you are still in Vscode, you will look through the extension marketplac
 
 Since you have installed "Live Server", you are now able to view your website live!
 
-1. **Right-Click** on your "index.html" file.
+1. **Right-Click** on your "index.html" file and **click** on "Open With Live Server".
+
+      ![VSCode](images/stp3LS.png)
 
     ??? warning "Where Is My File?"
         Ensure you are in your folder you have selected in [Creating The Home Page](../Basic-HTML/Basic-HTML.md#creating-the-home-page) and if you can not find it (or deleted it...), follow the steps in [Creating The Project Folder](../Basic-HTML/Basic-HTML.md#creating-the-project-folder).
 
+## Conclusion
 
+![VSCode](images/stp4LS.jpg)
+
+!!! success "Success!"
+    Well Done! You can now view changes to your website live!

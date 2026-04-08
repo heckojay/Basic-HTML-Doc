@@ -1,12 +1,12 @@
-site_name: HTML Basics Demo
-site_url: https://htmlDemo.ca
+site_name: HTML User Documentation
+site_url: https://htmluserdocs.ca
 
 nav:
   - Home: index.md
   - Setup: VsCode-Setup/VsCode-Installation.md
-  - Your First Website: Basic-HTML/Basic-HTML.md
-  - Detailing: CSS Basics.md
-  - Seeing Results: Live-Server/Live-Server.md
+  - Create Your First Website: Basic-HTML/Basic-HTML.md
+  - Style Your First Website: CSS-Basics/CSS-Basics.md 
+  - View Your First Website: Live-Server/Live-Server.md
   - Glossary: glossary.md
   - Troubleshooting: troubleshooting.md
 

@@ -39,16 +39,19 @@ To follow these instructions, you will need:
 
 This guide uses success, warning, and note messages to provide additional information for instruction steps.
 
-✅ **Success**
+!!! success "Success"
+    Success provides information about the success outcome of instructions. It appears in a green box with a checkmark icon next to a context label.
 
-> Success provides information about the success outcome of instructions. It appears in a green box with a checkmark icon next to a "Success" label.
+!!! warning "Warning"
 
-⚠️ **Warning**
+    Warning provides information about instructions that can cause errors. It appears in an orange box with a warning icon next to a context label.
 
-> Warning provides information about instructions that can cause errors. It appears in an orange box with a warning icon next to a "Warning" label.
+!!! tip "Tip"
 
-📝 **Note**
+    Tips provides additional quality of life about a step. It appears in a turquoise box with a fire icon next to a context label.
 
-> Note provides additional information for a step. It appears in a blue box with a pen icon next to a "Note" label.
+!!! info "Note"
+
+    Notes provides additional information for a step. It appears in a blue box with a pen icon next to a context label.
 
 ---

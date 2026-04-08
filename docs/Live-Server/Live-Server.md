@@ -10,13 +10,17 @@ Assuming you are still in Vs Code, you will look through the extension marketpla
 
 1. **Click** the [Extensions] :material-crop-square: icon.
 
-      ![VS Code](images/stp1LS.png)
+      ![VS Code left sidebar showing the Extensions icon highlighted in a red box with a tooltip reading Extensions Ctrl+Shift+X](images/stp1LS.png)
+
+      *Figure 1. The Extensions icon in the VS Code left sidebar.*
 
 2. **Enter** "Live Server".
 
 3. **Click** install on the extension with the author: "Ritwick Dey".
 
-      ![VS Code](images/stp2LS.png)
+      ![VS Code Extensions Marketplace showing Live Server typed in the search bar as step 1, with the Live Server extension by Ritwick Dey and its Install button circled as step 2](images/stp2LS.png)
+
+      *Figure 2. Searching for Live Server in the Extensions Marketplace and clicking Install on the extension by Ritwick Dey.*
 
     ??? tip "Are There Any Other Extensions Worth Getting?"
         I Recommend The Following:
@@ -32,14 +36,18 @@ Since you have installed "Live Server", you are now able to view your website li
 
 2. **Click** on "Open With Live Server".
 
-      ![VS Code](images/stp3LS.png)
+      ![VS Code context menu showing index.html highlighted as step 1 and Open with Live Server highlighted as step 2 with the cursor hovering over it](images/stp3LS.png)
+
+      *Figure 3. Right-clicking index.html and selecting Open with Live Server from the context menu.*
 
     ??? warning "Where Is My File?"
         Ensure you are in your folder you have selected in [Creating The Home Page](../Basic-HTML/Basic-HTML.md#creating-the-home-page) and if you can not find it (or deleted it...), follow the steps in [Creating The Project Folder](../Basic-HTML/Basic-HTML.md#creating-the-project-folder).
 
 ## Conclusion
 
-![VS Code](images/stp4LS.jpg)
+![A browser window displaying the completed website titled My First Website About Cats, showing headings, a bullet list of cat facts, and a large photo of an orange cat yawning](images/stp4LS.jpg)
+
+*Figure 4. The completed website rendered live in the browser via Live Server.*
 
 !!! success "Success!"
     Well Done! You can now view changes to your website live!

@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 This guide walks you through the essentials of writing HTML using **Visual Studio Code (VS Code)** a free code editor used by beginners and professionals. HTML is the foundation of every webpage on the internet; it is the language that tells a browser what to display and how to structure it.
 
@@ -38,9 +38,9 @@ To follow these instructions, you will need:
 
 | Format | Meaning |
 |-------|--------|
-| **Bold** | Actions The User **Clicks**, **Enters**, or **Opens**  |
-| [Code] | Actions The User *Inputs* |
-| "Names" | Names |
+| **Bold** | Actions The User Interacts With The UI (e.g., buttons, menus, labels) |
+| [Code] | Actions The User Types (e.g., `<h1>`, `index.html`) |
+| [Link](#) | Clickable links to other sections or resources |
 
 
 ## Admonitions

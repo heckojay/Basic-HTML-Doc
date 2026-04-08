@@ -3,7 +3,7 @@ site_url: https://htmluserdocs.ca
 
 nav:
   - Home: index.md
-  - Setup: VsCode-Setup/VsCode-Installation.md
+  - Setup For Your First Website: VsCode-Setup/VsCode-Installation.md
   - Create Your First Website: Basic-HTML/Basic-HTML.md
   - Style Your First Website: CSS-Basics/CSS-Basics.md 
   - View Your First Website: Live-Server/Live-Server.md

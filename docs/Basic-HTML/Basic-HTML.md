@@ -51,13 +51,13 @@ At this point, you should have an empty folder and *should* be aware of the loca
       ![File Explorer](images/stp7.png)
 
     ??? warning "I Can't Find My Folder!"
-        Tough Luck, Shouda Followed The Tutorial Buddy.
+        If you can *not* find your folder, use the search function in file explorer.
 
 4. **Click** on the [New File] :material-file-plus: icon and **Enter** "index.html".
 
       ![File Explorer](images/stp8.png)
 
-## HTML Basics
+## Implementing HTML Basics
 
 ### Implementing a Template
 
@@ -106,7 +106,7 @@ The [`<h1>`] is a *header* tag and can be used as titles, section headings, or s
 
 ### Implementing Images
 
-#### Utilizing *Online* Images
+#### Implementing *Online* Images
 
 1. **Enter** an [`<img`], and do *not* close it. <br> This is the opening of the img tag that tells the computer that you want an image here.
 
@@ -131,7 +131,10 @@ The [`<h1>`] is a *header* tag and can be used as titles, section headings, or s
       ![VS Code](images/stp17.png)
 
     ??? warning "My Image Does Not Work!"
-        If your image does not work seek the [troubleshooting guide] (../troubleshooting.md#images-not-showing)
+        If your image does not work seek the [troubleshooting-guide](../troubleshooting.md#images-not-showing).
 
 ## Conclusion
 
+At this point, your website should include headers, paragraphs, lists, and images. 
+
+If your website does not include or had trouble incorporating these features, please seek the [troubleshooting-guide](../troubleshooting.md#images-not-showing).

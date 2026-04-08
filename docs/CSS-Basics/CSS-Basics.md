@@ -28,6 +28,17 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 
       ![VS Code](images/stp3css.png)
 
-2. **Enter**
+2. **Enter** [`<link rel="stylesheet" href="style.css">`]
 
       ![VS Code](images/stp4css.gif)
+
+    ??? info "What Does The Tag Mean?"
+        [`rel="stylesheet"`] tells the browser that the linked file is a CSS stylesheet.  
+        [`href="style.css"`] specifies the location of the CSS file.
+
+## Styling
+
+### Styling Text
+
+#### Styling Headers
+

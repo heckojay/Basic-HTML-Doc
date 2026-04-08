@@ -43,11 +43,13 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 
       ![VS Code](images/stp5css.png)
 
-2. **Enter** [`<h1>`] and **enter** [{].   <br> To clarify, [`<h1>`] is selecting *all* occurrences of [`<h1>`] in your website. The [{}] is what you are modifying to these occurrences.
+2. **Enter** [`<h1>`].
+
+3. **Enter** [{] <br> To clarify, [`<h1>`] is selecting *all* occurrences of [`<h1>`] in your website. The [{}] is what you are modifying to these occurrences.
 
       ![VS Code](images/stp6css.png)
 
-3. **Enter** a new line using the "Enter" key.
+3. **Enter** a new line using the [Enter] key.
 
       ![VS Code](images/stp7css.png)
 
@@ -66,10 +68,8 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 
       ![VS Code](images/stp9css.png)
 
-
     ??? info "Are There Any Other Alignments?"
         You can input left, right, or justify. Left or right aligns text to their respective values while justify aligns each line so they have the same width.
-
 
 #### Styling Font Size
 
@@ -77,18 +77,18 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 
       ![VS Code](images/stp10css.png)
 
-
     ??? info "What Is Font Size?"
         Font Size is how big your text is. "px" are called pixels and are a unit of measurement for the size of the text.
 
-
 ### Styling Lists
 
-1. **Enter** [ul] and **enter** [{].
+1. **Enter** [ul].
+
+2. **Enter** [{].
 
       ![VS Code](images/stp11css.png)
 
-2. **Enter** a new line using the "Enter" key.
+3. **Enter** a new line using the "Enter" key.
 
       ![VS Code](images/stp12css.png)
 
@@ -103,11 +103,13 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 
 ### Styling Images
 
-1. **Enter** [img] and **enter** [{].
+1. **Enter** [img].
+
+2. **Enter** [{].
 
       ![VS Code](images/stp14css.png)
 
-2. **Enter** a new line using the "Enter" key.
+3. **Enter** a new line using the "Enter" key.
 
       ![VS Code](images/stp15css.png)
 

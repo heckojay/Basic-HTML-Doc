@@ -38,7 +38,9 @@ To follow these instructions, you will need:
 
 | Format | Meaning |
 |-------|--------|
-| **Bold** | Actions |
+| **Bold** | Actions The User **Clicks**, **Enters**, or **Opens**  |
+| [Code] | Actions The User *Inputs* |
+| "Names" | Names |
 
 
 ## Admonitions

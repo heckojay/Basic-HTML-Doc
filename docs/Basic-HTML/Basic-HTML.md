@@ -4,137 +4,199 @@
 
 HTML (Hypertext Markup Language) is the standard markup language used for displaying documents in a [web browser](../glossary.md#Web-Browser). This guide demonstrates the foundations of building a basic website. Topics include: headers, paragraphs, lists, links, and images.
 
-## Implementing The Project Folder
+## Creating The Project Folder
 
 Before building your website, you may need a dedicated folder to store all your files. Doing so encourages cleanliness and easier management of your website.
 
-1. **Open** File Explorer by **Clicking** on File Explorer.
+1. **Open** File Explorer by **Clicking** File Explorer.
 
-    ![Taskbar](images/stp1.png)
+    ![Windows 11 taskbar with the File Explorer icon highlighted in red](images/stp1.png)
+
+    *Figure 1. The File Explorer icon on the Windows 11 taskbar.*
 
     ??? warning "I Do **Not** Have File Explorer Here!"
-        File Explorer can be found by **clicking** on the search function, and **entering** File Explorer.
+        File Explorer can be found by **clicking** the search function, and **entering** File Explorer.
 
-2. **Click** on your drive.
+2. **Click** your drive.
 
-    ![File Explorer](images/stp2.png)
+    ![File Explorer window showing the Home screen with Acer (C:) highlighted in a red box in the left sidebar](images/stp2.png)
 
-    ??? question "Why Use My Drive?"
-        Why do I suggest your drive instead of Documents or OneDrive? 
-        This is to simplify the searching process in order to find your website and **especially** avoid conflicts with OneDrive.
+      *Figure 2. File Explorer Home screen with Acer (C:) drive selected in the left panel.*
 
-3. **Click** the [New] dropdown and **Click** [Create].
+    !!! tip "Why Use My Drive?"
+        This is to simplify the searching process in order to find your website and avoid conflicts with OneDrive.
 
-    ![File Explorer](images/stp3.png)
+3. **Click** the [New] dropdown.
 
-4. **Enter** a name. <br> Ensure to *not* include *symbols* or *numbers* in your folder name.
 
-    ![File Explorer](images/stp4.png)
+4. **Click** [Create].
+
+    ![File Explorer window on Acer C: drive with the New button circled as step 1 and the Folder option in the dropdown circled as step 2](images/stp3.png)
+
+    *Figure 3. Clicking New then selecting Folder to create a new folder on the C: drive.*
+
+5. **Enter** a name. <br> Ensure to *not* include *symbols* or *numbers* in your folder name.
+
+    ![File Explorer showing a newly created folder named myWebsite highlighted in a red box at the top of the file list](images/stp4.png)
+
+    *Figure 4. The newly created myWebsite folder appearing in the C: drive.*
 
     !!! success "Success!"
         Well Done! You have made a folder!
 
-## Implementing The Home Page
+## Creating The Home Page
 
 At this point, you should have an empty folder and *should* be aware of the location of it. 
 
-1. **Click** on the search function and **Enter** [VS Code].
+1. **Click** the search function.
 
-      ![File Explorer](images/stp5.gif)
+2. **Enter** [VS Code].
 
-2. **Click** [Open Folder]. <br> This will take you to a file explorer prompt.
+      ![VS Code Welcome screen showing the Open Folder option highlighted with a red box and cursor hovering over it](images/stp5.gif)
 
-      ![File Explorer](images/stp6.png)
+      *Figure 5. The VS Code Welcome screen with Open Folder selected from the Start menu.*
 
-3. **Click** on your drive, then **click** on your folder, and lastly, **click** on select folder.
+3. **Click** [Open Folder]. <br> This will take you to a file explorer prompt.
 
-      ![File Explorer](images/stp7.png)
+      ![VS Code Open Folder dialog showing Acer C: drive selected as step 1, myWebsite folder selected as step 2, and the Select Folder button circled as step 3](images/stp6.png)
 
-    ??? warning "I Can't Find My Folder!"
-        If you can *not* find your folder, use the search function in file explorer.
+      *Figure 6. Navigating to and selecting the myWebsite folder in the VS Code Open Folder dialog.*
 
-4. **Click** on the [New File] :material-file-plus: icon and **Enter** "index.html".
+4. **Click** your drive.
 
-      ![File Explorer](images/stp8.png)
+5. **Click** your folder.
 
-## Implementing HTML Basics
+6. **Click** select folder.
 
-### Implementing a Template
+      ![VS Code Explorer panel showing MYWEBSITE as the open folder with the New File icon circled as step 1 and index.html being typed as the file name as step 2](images/stp7.png)
+
+      *Figure 7. The myWebsite folder successfully opened in VS Code.*
+
+7. **Click** the [New File] :material-file-plus: icon.
+
+8. **Enter** "index.html".
+
+      ![VS Code editor showing index.html open with a placeholder prompt reading Generate code or select a language](images/stp8.png)
+
+      *Figure 8. The empty index.html file open in VS Code, ready for content.*
+
+9. **Enter** [Enter].
+
+10. **Double-Click** "index.html".
+
+## Writing HTML Content
+
+### Template
 
 VS Code is a major help due to the simplicity and [extensions](../glossary.md#extention) it has. 
 For example, VS Code allows a simple template to start off with.
 
 1. **Enter** an [!]. <br> This generated template will provide the basics in order to load the website.
 
-      ![VS Code](images/stp9.gif)
+      ![VS Code editor showing the HTML Emmet template auto-generated after typing an exclamation mark, with a Live Preview panel on the right showing three header sizes](images/stp9.gif)
+
+      *Figure 9. The Emmet template generated by typing ! in index.html, with headers displayed in Live Preview.*
 
     ??? note "What Is The '!'?"
         The [!] auto generates a template thanks to [Emmet](../glossary.md#emmet), a *built-in* extension to VS Code.
 
-### Implementing Headers
+### Headers
 
-1. **Enter** an [`<h1>`] *in between* the body. VS Code will end the *tag* automatically upon closing it with [>]. Writing after the [>], will display the text you write. <br> This is called an *opening tag*.
+This section explains how to add lists to your webpage using the `<h1>` tag.
+
+1. **Enter** an [`<h1>`] *in between* the body. <br> VS Code will end the *tag* automatically upon closing it with [>]. Type text after the [>], will display the text you write. This is called an *opening tag*.
 The [`<h1>`] is a *header* tag and can be used as titles, section headings, or sub-sections.
 
-      ![VS Code](images/stp10.png)
+2. **Type** your desired text.
+
+      ![VS Code editor showing h1, h2, and h3 header tags in the code editor with the rendered output showing three different header sizes in Live Preview](images/stp10.png)
+
+      *Figure 10. Header tags added inside the body with their rendered output shown in Live Preview.*
 
     ???+ info "What Does The Tag Mean?"
         Everything together in [`<h1>`] is called a tag. The [<] marks the *start of the opening tag*. [h] stands for *header* while the [1] (can be any number from 1-6) stands for the level or size, and the [>] marks the end of the opening *tag*.
 
-### Implementing Paragraphs
+### Paragraphs
 
 1. **Enter** an [`<p>`]. <br> This is a *paragraph* tag used for general text.
 
-      ![VS Code](images/stp11.png)
+      ![VS Code editor showing a paragraph tag with the text Hello I am paragraph text on line 10, and the Live Preview panel on the right displaying the rendered paragraph below a heading](images/stp11.png)
 
-### Implementing Lists
+      *Figure 11. A paragraph tag added inside the body with its rendered output shown in Live Preview.*
 
-1. **Enter** an [`<ul>`], **close** the opening tag, and **press** enter to create a space between the two tags. <br> This action is defining an *unordered* list. 
+### Lists
 
-      ![VS Code](images/stp12.gif)
+This section explains how to add lists to your webpage using the `<ul>` tag.
 
-    ??? question "What Is An Unordered List?"
+1. **Enter** an [`<ul>`].
+
+2. **Close** the opening tag.
+
+3. **Press** enter to create a space between the two tags. <br> This action is defining an *unordered* list. 
+
+      ![VS Code editor showing a ul opening and closing tag with an empty line between them, and Live Preview showing an empty list heading](images/stp12.gif)
+
+      *Figure 12. The ul tag with space between opening and closing tags, ready for list items.*
+
+    ??? info "What Is An Unordered List?"
         An unordered list is *not* in order and you may know them as bullets.
 
 2. In the space between, **enter** a [`<li>`]. <br> After the opening tag, write your desired text and *ensure* it has the closing tag after your text.
 
-      ![VS Code](images/stp13.gif)
+      ![VS Code editor showing a completed li tag with text inside it, nested between the ul opening and closing tags](images/stp13.gif)
 
-    ??? question "Do I Need The [`<ul>`]?"
+      *Figure 13. A list item added inside the ul tags with text entered between the opening and closing li tags.*
+
+    ??? info "Do I Need The [`<ul>`]?"
         You do *not* need the [`<ul>`]. However, including it is considered good practice and supports clean code.
 
 
-### Implementing Images
+### Images
 
-#### Implementing *Online* Images
+This section explains how to add images to your webpage using the `<img>` tag.
 
 1. **Enter** an [`<img`], and do *not* close it. <br> This is the opening of the img tag that tells the computer that you want an image here.
 
-      ![VS Code](images/stp14.png)
+      ![VS Code editor showing the opening img tag typed on line 9 inside the body tags, with the tag not yet closed](images/stp14.png)
 
-2. **Enter** a space then, **enter** [`src=`] after it. 
+      *Figure 14. The opening img tag entered on line 9 inside the body, not yet closed.*
 
-      ![VS Code](images/stp15.png)
+2. **Enter** a space. 
+
+3. **Enter** [`src=`] after it.
+
+      ![VS Code editor showing img src= entered on line 9 inside the body tags with the cursor positioned inside the quotation marks](images/stp15.png)
+
+      *Figure 15. The src attribute added to the img tag, with the cursor ready to receive the image URL.*
 
     ??? info "What Does The Tag Mean?"
         [`src=`] means that the computer should look for links and image [paths](../glossary.md#file-path) within your computer or through the internet.
 
-3. **Grab** a image link from the internet and **Copy** it using [Ctrl^C] or [right clicking] and selecting copy.
+4. **Copy** an image link from the internet.
 
-      ![VS Code](images/stp16.jpg)
+      ![Google Chrome browser showing a Britannica image of an orange cat yawning, with the image URL visible in the address bar and a Ctrl+C label overlaid indicating the copy action](images/stp16.jpg)
+
+      *Figure 16. Copying the image URL directly from the browser address bar using Ctrl+C.*
 
     ??? tip "What Is an Easy Way To Do This?"
         The easiest way is to go to Google and look for the desired image, opening it in a new tab, and copying the link.
 
-4. **Enter** the link after [`src=`]. <br> (and don't forget to close the tag with [>]!).
+5. **Enter** the link after [`src=`].
 
-      ![VS Code](images/stp17.png)
+6. **Enter** [>].
+
+      ![VS Code editor on the left showing the completed img tag with a Britannica URL, and Live Preview on the right displaying the orange cat image successfully rendered in the browser](images/stp17.png)
+
+      *Figure 17. The finished image tag with the photo rendering correctly in Live Preview.*
 
     ??? warning "My Image Does Not Work!"
-        If your image does not work seek the [troubleshooting-guide](../troubleshooting.md#images-not-showing).
+        If your image does not work seek the [troubleshooting-guide](../troubleshooting.md).
+
+!!! success "Success"
+    Your image should now appear in your browser.
 
 ## Conclusion
 
 At this point, your website should include headers, paragraphs, lists, and images. 
 
-If your website does not include or had trouble incorporating these features, please seek the [troubleshooting-guide](../troubleshooting.md#images-not-showing).
+If your website does not include or had trouble incorporating these features, please seek the [troubleshooting-guide](../troubleshooting.md).

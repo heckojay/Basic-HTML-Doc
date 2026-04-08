@@ -12,7 +12,9 @@ Assuming you are still in Vs Code, you will look through the extension marketpla
 
       ![VS Code](images/stp1LS.png)
 
-2. **Enter** "Live Server" and **click** install on the extension with the author: "Ritwick Dey".
+2. **Enter** "Live Server".
+
+3. **Click** install on the extension with the author: "Ritwick Dey".
 
       ![VS Code](images/stp2LS.png)
 
@@ -26,7 +28,9 @@ Assuming you are still in Vs Code, you will look through the extension marketpla
 
 Since you have installed "Live Server", you are now able to view your website live!
 
-1. **Right-Click** on your "index.html" file and **click** on "Open With Live Server".
+1. **Right-Click** on your "index.html" file. 
+
+2. **Click** on "Open With Live Server".
 
       ![VS Code](images/stp3LS.png)
 

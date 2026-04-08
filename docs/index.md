@@ -13,13 +13,13 @@ This guide is written for **Term 1 CST students** at BCIT who are new to web dev
 - Are currently enrolled in the CST program and encountering HTML for the first time
 - Have never used VS Code before
 
-If you are already familiar with HTML, VS Code, and GitHub from prior experience, this guide may cover material you already know.
+If you are already familiar with HTML and VS Code from prior experience, this guide may cover material you already know.
 
 ---
 
 ## By the End of This Guide, You Will Be Able To
 
-1. Download and set up VS Code connected to your GitHub account
+1. Download and set up VS Code
 2. Create a basic webpage using essential HTML tags
 3. Preview your webpage live in a browser as you write it using VS Code's Live Preview extension
 
@@ -29,11 +29,17 @@ If you are already familiar with HTML, VS Code, and GitHub from prior experience
 
 To follow these instructions, you will need:
 
-- A computer with Windows operating system
-- A GitHub account
-- Google Chrome
+- A computer with Windows 10 or Windows 11
+- Google Chrome (Most consistent browser for Live Server)
 
 ---
+
+## Typographical Conventions
+
+| Format | Meaning |
+|-------|--------|
+| **Bold** | Actions |
+
 
 ## Admonitions
 

@@ -16,7 +16,7 @@ VS Code is the editor you will use to write all of your HTML code.
 
     *Figure 1. Entering the VS Code website URL in the Chrome address bar.*
 
-3. **Click** the **Download** button.
+3. **Click** the *Download* button.
 
     ![The Visual Studio Code website homepage with the Download for Windows button highlighted in a red box](Images/step2.png)
 
@@ -25,11 +25,11 @@ VS Code is the editor you will use to write all of your HTML code.
     !!! info "What Happens Next?"
         The website automatically detects your operating system and suggests the correct version.
 
-4. **Open** **File Explorer**.
+4. **Open** *File Explorer*.
 
-5. **Click** **Downloads**.
+5. **Click** *Downloads*.
 
-6. **Double-Click** the [.exe] installer file.
+6. **Double-Click** the `.exe` installer file.
 
     ![File Explorer Downloads folder showing the VS Code installer file VSCodeUserSetup-x64-1.113.0.exe highlighted in a red box as step 3, with the Downloads folder circled in the sidebar as step 2 and the File Explorer taskbar icon circled as step 1](Images/step3.png)
 
@@ -37,36 +37,36 @@ VS Code is the editor you will use to write all of your HTML code.
 
 7. **Select** the license agreement.
 
-8. **Click** **Next**.
+8. **Click** *Next*.
 
     ![VS Code Setup License Agreement window with the I accept the agreement radio button selected and highlighted in a red box as step 1, and the Next button highlighted in a red box as step 2](Images/step4.png)
 
     *Figure 4. Accepting the license agreement in the VS Code Setup window.*
 
-9. **Click** **Next** on the *Select Destination Location* screen.
+9. **Click** *Next* on the *Select Destination Location* screen.
 
-10. **Click** **Next** on the *Select Start Menu Folder* screen.
+10. **Click** *Next* on the *Select Start Menu Folder* screen.
 
     !!! warning "Warning"
-        Make sure **Add to PATH** is selected. If it is not selected, VS Code may not work correctly with some tools later.
+        Make sure *Add to PATH* is selected. If it is not selected, VS Code may not work correctly with some tools later.
 
-11. **Click** the box labelled **Add to PATH**.
+11. **Click** the box labelled *Add to PATH*.
 
-12. **Click** **Register Code as an editor for supported file types**.
+12. **Click** *Register Code as an editor for supported file types*.
 
     ![VS Code Setup Select Additional Tasks window with Register Code as an editor for supported file types and Add to PATH checkboxes both checked and highlighted in a red box as step 1, and the Next button highlighted as step 2](Images/step5.png)
 
     *Figure 5. Checking the Add to PATH and Register Code checkboxes on the Select Additional Tasks screen.*
 
-13. **Click** **Next**.
+13. **Click** *Next*.
 
-14. **Click** **Install**.
+14. **Click** *Install*.
 
     ![VS Code Setup Ready to Install window showing the selected additional tasks summary with the Install button highlighted in a red box](Images/step6.png)
 
     *Figure 6. The Ready to Install screen confirming the selected tasks, with the Install button highlighted.*
 
-15. **Click** **Finish**.
+15. **Click** *Finish*.
 
     ![VS Code setup completion screen with the Finish button highlighted](Images/step7.png)
 

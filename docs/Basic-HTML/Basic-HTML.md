@@ -28,7 +28,6 @@ Before building your website, you may need a dedicated folder to store all your 
 
 3. **Click** the [New] dropdown.
 
-
 4. **Click** [Create].
 
     ![File Explorer window on Acer C: drive with the New button circled as step 1 and the Folder option in the dropdown circled as step 2](images/stp3.png)
@@ -197,6 +196,6 @@ This section explains how to add images to your webpage using the `<img>` tag.
 
 ## Conclusion
 
-At this point, your website should include headers, paragraphs, lists, and images. 
+At this point, your website includes headers, paragraphs, lists, and images.
 
 If your website does not include or had trouble incorporating these features, please seek the [troubleshooting-guide](../troubleshooting.md).

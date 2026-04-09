@@ -2,7 +2,7 @@
 
 ## Overview
 
-CSS (Cascading Style Sheets) is used to style the appearance of your website. CSS This guide demonstrates how to apply styling built on the website you created. This includes fonts, colors, spacing and positioning.
+CSS (Cascading Style Sheets) is used to style the appearance of your website. This guide demonstrates how to apply styling built on the website you created. This includes fonts, colors, spacing and positioning.
 
 ## Implementing a CSS File
 
@@ -46,6 +46,8 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 ## Styling
 
 ### Styling Text (Headers or Paragraphs)
+
+This section explains how to 
 
 1. **Open** your "style.css" file.
 
@@ -154,6 +156,9 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 
       *Figure 16. The width property set to 300px inside the img rule, with the image resized in Live Preview.*
 
+    ??? tip "How Can I Keep My Image Size Consistent?"
+        The easiest way is to go use "auto" in place of the px. "auto" will maintain the proportions of the image automatically.
+
 #### Styling Image Height
 
 1. **Enter** [height: 800px;].
@@ -162,12 +167,8 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 
       *Figure 17. The height property set to 800px inside the img rule, with the image stretched vertically in Live Preview.*
 
-    ??? tip "How Can I Keep My Image Size Consistent?"
-        The easiest way is to go use "auto" in place of the px. "auto" will maintain the proportions of the image automatically.
-
-
 ## Conclusion
 
-Your website should have text color, position, size, different list type, and image proportions customized. 
+Your website has text color, position, size, a different list type, and image proportions customized. 
 
 If your website does not include or had trouble incorporating these features, please seek the [troubleshooting-guide](../troubleshooting.md#images-not-showing).

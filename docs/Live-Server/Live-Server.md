@@ -32,9 +32,9 @@ Assuming you are still in Vs Code, you will look through the extension marketpla
 
 Since you have installed "Live Server", you are now able to view your website live!
 
-1. **Right-Click** on your "index.html" file. 
+1. **Right-Click** your "index.html" file. 
 
-2. **Click** on "Open With Live Server".
+2. **Click** "Open With Live Server".
 
       ![VS Code context menu showing index.html highlighted as step 1 and Open with Live Server highlighted as step 2 with the cursor hovering over it](images/stp3LS.png)
 
@@ -43,11 +43,13 @@ Since you have installed "Live Server", you are now able to view your website li
     ??? warning "Where Is My File?"
         Ensure you are in your folder you have selected in [Creating The Home Page](../Basic-HTML/Basic-HTML.md#creating-the-home-page) and if you can not find it (or deleted it...), follow the steps in [Creating The Project Folder](../Basic-HTML/Basic-HTML.md#creating-the-project-folder).
 
-## Conclusion
-
-![A browser window displaying the completed website titled My First Website About Cats, showing headings, a bullet list of cat facts, and a large photo of an orange cat yawning](images/stp4LS.jpg)
-
-*Figure 4. The completed website rendered live in the browser via Live Server.*
 
 !!! success "Success!"
     Well Done! You can now view changes to your website live!
+
+## Conclusion
+
+At this point, you have the ability to view changes to your website live.
+
+If your website does not include or had trouble incorporating these features, please seek the [troubleshooting-guide](../troubleshooting.md).
+

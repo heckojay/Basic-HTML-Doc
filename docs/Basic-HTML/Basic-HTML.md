@@ -103,6 +103,8 @@ For example, VS Code allows a simple template to start off with.
 
 ### Headers
 
+To style implement headers in your website, you need to include the `<h1>` tags.
+
 1. **Enter** `<h1>`.
 
 2. **Type** your desired text.
@@ -116,6 +118,8 @@ For example, VS Code allows a simple template to start off with.
 
 ### Paragraphs
 
+To style implement headers in your website, you need to include the `<p>` tags.
+
 1. **Enter** `<p>`.
 
     ![VS Code editor showing a paragraph tag](images/stp11.png)
@@ -123,6 +127,9 @@ For example, VS Code allows a simple template to start off with.
     *Figure 11. A paragraph tag added inside the body.*
 
 ### Lists
+
+To style implement lists in your website, you need to include the `<ul>` tags.
+
 
 1. **Enter** `<ul>`.
 
@@ -144,6 +151,8 @@ For example, VS Code allows a simple template to start off with.
     *Figure 13. A list item added inside the ul tags.*
 
 ### Images
+
+To style implement lists in your website, you need to include the `<img>` tags.
 
 1. **Enter** `<img`.
 

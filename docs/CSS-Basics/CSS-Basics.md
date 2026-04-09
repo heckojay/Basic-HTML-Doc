@@ -47,7 +47,7 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 
 ### Styling Text (Headers or Paragraphs)
 
-This section explains how to 
+This section explains how to style text color, text position, and text size.
 
 1. **Open** `style.css`.
 
@@ -75,6 +75,8 @@ This section explains how to
 
 #### Styling Text Color
 
+To style text using CSS, you need to include the color you desire.
+
 1. **Enter** `color: blue;` <br> (Do not forget to save your code using *Ctrl + S*! )
 
       ![VS Code editor on the left showing the h1 rule with color: blue added on line 2, and Live Preview on the right displaying the h1 heading in blue text with a red border highlight](images/stp8css.png)
@@ -85,6 +87,8 @@ This section explains how to
         You can input red, yellow, or cyan in place of blue to name a few. To utilize other colors, you can use *RGB* values. For more information, visit [W3Schools](https://www.w3schools.com/colors/default.asp).
 
 #### Styling Text Position
+
+To style the text position using CSS, you need to include the alignment you desire.
 
 1. **Enter** `text-align: center;` below color.
 
@@ -97,6 +101,8 @@ This section explains how to
 
 #### Styling Font Size
 
+To style text size using CSS, you need to include the size you desire in pixels.
+
 1. **Enter** `font-size: 16px;` below text-align.
 
       ![VS Code editor on the left showing font-size: 16px added on line 4 of the h1 rule highlighted in a red box, and Live Preview on the right displaying the smaller centered blue heading](images/stp10css.png)
@@ -107,6 +113,8 @@ This section explains how to
         Font size is how big your text is. "px" are called pixels and are a unit of measurement for the size of the text.
 
 ### Styling Lists
+
+This section explains how to style the list type.
 
 1. **Enter** `ul`.
 
@@ -124,6 +132,8 @@ This section explains how to
 
 #### Styling List Type
 
+To style the list type using CSS, you need to include the type you desire.
+
 1. **Enter** `list-style-type: square;`.
 
     ??? info "Are There Other List Types?"
@@ -134,6 +144,8 @@ This section explains how to
       *Figure 13. The list-style-type property set to square inside the ul rule, with the list rendered with square bullets in Live Preview.*
 
 ### Styling Images
+
+This section explains how to style the image width and image height.
 
 1. **Enter** `img`.
 
@@ -151,6 +163,8 @@ This section explains how to
 
 #### Styling Image Width
 
+To style a image using CSS, you need to include the width you desire in pixels.
+
 1. **Enter** `width: 300px;`.
 
       ![VS Code editor on the left showing width: 300px added inside the img rule highlighted in a red box, and Live Preview on the right displaying the cat image resized to 300px wide with a red border highlight](images/stp16css.png)
@@ -161,6 +175,8 @@ This section explains how to
         The easiest way is to use "auto" in place of px. "auto" will maintain the proportions of the image automatically.
 
 #### Styling Image Height
+
+To style a image using CSS, you need to include the height you desire in pixels.
 
 1. **Enter** `height: 800px;`.
 

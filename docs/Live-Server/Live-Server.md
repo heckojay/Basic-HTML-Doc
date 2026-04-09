@@ -4,7 +4,7 @@
 
 Having to reload the page to see your work is tedious. Thankfully there is an extension to see your website update live. This guide demonstrates the installation process of [Live Server](../glossary.md#Live-Server) and how to see your website live.
 
-## Installation
+## Install Live Server
 
 Assuming you are still in VS Code, you will look through the extension marketplace to discover useful tools that will save you time, debug code faster, earn immediate feedback, allowing you to learn efficiently.
 
@@ -28,7 +28,7 @@ Assuming you are still in VS Code, you will look through the extension marketpla
         <br>- "Prettier - Code formatter" by "Prettier". For neat code.
         <br>- "vscode-pdf" by "tomoki1207". For displaying PDFs in VS Code.
 
-## Usage
+## Open Live Server
 
 Since you have installed "Live Server", you are now able to view your website live!
 
@@ -42,6 +42,22 @@ Since you have installed "Live Server", you are now able to view your website li
 
     ??? warning "Where Is My File?"
         Ensure you are in your folder you have selected in [Creating The Home Page](../Basic-HTML/Basic-HTML.md#creating-the-home-page) and if you cannot find it (or deleted it...), follow the steps in [Creating The Project Folder](../Basic-HTML/Basic-HTML.md#creating-the-project-folder).
+
+## View Live Server Changes
+
+To confirm Live Server is working, make a small change to your webpage and save it.
+
+1. **Click** inside your `index.html` file in VS Code.
+
+2. **Edit** any text inside your `<h1>` tags.
+
+3. **Press** `Ctrl + S`.
+
+At this point, your browser should update to reflect this change.
+
+![VS Code editor showing index.html open with a complete HTML page including h1, h2, ul list items, and an img tag, with the cursor on line 16 inside the ul tags ready for editing](images/stp5LS.gif)
+
+*Figure 4. The index.html file open in VS Code, ready to edit and opened in browser to view live changes.*
 
 !!! success "Success!"
     Well Done! You can now view changes to your website live!

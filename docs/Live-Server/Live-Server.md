@@ -28,6 +28,9 @@ Assuming you are still in VS Code, you will look through the extension marketpla
         <br>- "Prettier - Code formatter" by "Prettier". For neat code.
         <br>- "vscode-pdf" by "tomoki1207". For displaying PDFs in VS Code.
 
+    !!! success "Success"
+    You have installed live server! You should now be able to see Live server in the "Installed" section in "Extensions".
+
 ## Open Live Server
 
 Since you have installed "Live Server", you are now able to view your website live!
@@ -42,6 +45,9 @@ Since you have installed "Live Server", you are now able to view your website li
 
     ??? warning "Where Is My File?"
         Ensure you are in your folder you have selected in [Creating The Home Page](../Basic-HTML/Basic-HTML.md#creating-the-home-page) and if you cannot find it (or deleted it...), follow the steps in [Creating The Project Folder](../Basic-HTML/Basic-HTML.md#creating-the-project-folder).
+
+    !!! success "Success"
+    You have opened your website in "Live Server"! "Live Server" should have opened your web browser.
 
 ## View Live Server Changes
 
@@ -66,4 +72,4 @@ At this point, your browser should update to reflect this change.
 
 At this point, you have the ability to view changes to your website live.
 
-If your website does not include or had trouble incorporating these features, please seek the [troubleshooting-guide](../troubleshooting.md).
+If your website does not include these features, please seek the [troubleshooting-guide](../troubleshooting.md). 

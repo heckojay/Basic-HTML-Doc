@@ -2,7 +2,9 @@
 
 ## Overview
 
-CSS (Cascading Style Sheets) is used to style the appearance of your website. This guide demonstrates how to apply styling built on the website you created. This includes fonts, colors, spacing and positioning.
+In order to style your website, you need to use [CSS](../glossary.md).
+
+This guide demonstrates how to apply styling built on the website you created. This includes fonts, colors, spacing and positioning.
 
 ## Implementing a CSS File
 
@@ -23,6 +25,9 @@ Before styling your website you need a separate file to store your CSS. This ens
     ??? warning "Why Not Name It Something Else?"
         You can, but using `style.css` is standard practice and avoids confusion later.
 
+    !!! success "Success!"
+        You have created a CSS file!
+
 ## Linking CSS to HTML
 
 Your CSS file will *not* work unless it is connected to your HTML file.
@@ -42,6 +47,9 @@ Your CSS file will *not* work unless it is connected to your HTML file.
     ??? info "What Does The Tag Mean?"
         `rel="stylesheet"` tells the browser that the linked file is a CSS stylesheet.  
         `href="style.css"` specifies the location of the CSS file.
+
+    !!! success "Success!"
+        You have linked your HTML and CSS files!
 
 ## Styling
 
@@ -66,12 +74,14 @@ This section explains how to style text color, text position, and text size.
     ???+ info "How Does This Work?"
         To clarify, `h1` is selecting *all* occurrences of `<h1>` in your website. The `{}` is what you are modifying to these occurrences.
 
-
 4. **Press** *Enter*.
 
       ![VS Code editor showing h1 with opening and closing curly braces on separate lines with an empty line between them](images/stp7css.png)
 
       *Figure 7. An empty line created between the opening and closing curly braces of the h1 rule.*
+
+    !!! success "Success!"
+        You have made the base CSS for styling text!
 
 #### Styling Text Color
 
@@ -86,6 +96,9 @@ To style text using CSS, you need to include the color you desire.
     ??? info "How About Other Colors?"
         You can input red, yellow, or cyan in place of blue to name a few. To utilize other colors, you can use *RGB* values. For more information, visit [W3Schools](https://www.w3schools.com/colors/default.asp).
 
+    !!! success "Success!"
+        You have made the text color blue!
+
 #### Styling Text Position
 
 To style the text position using CSS, you need to include the alignment you desire.
@@ -99,6 +112,9 @@ To style the text position using CSS, you need to include the alignment you desi
     ??? info "Are There Any Other Alignments?"
         You can input left, right, or justify. Left or right aligns text to their respective values while justify aligns each line so they have the same width.
 
+    !!! success "Success!"
+        You have centered the text!
+
 #### Styling Font Size
 
 To style text size using CSS, you need to include the size you desire in pixels.
@@ -111,6 +127,9 @@ To style text size using CSS, you need to include the size you desire in pixels.
 
     ??? info "What Is Font Size?"
         Font size is how big your text is. "px" are called pixels and are a unit of measurement for the size of the text.
+
+    !!! success "Success!"
+        You have modified the text size!
 
 ### Styling Lists
 
@@ -130,6 +149,9 @@ This section explains how to style the list type.
 
       *Figure 12. An empty line created between the opening and closing curly braces of the ul rule.*
 
+    !!! success "Success!"
+        You have made the base CSS for styling a list!
+
 #### Styling List Type
 
 To style the list type using CSS, you need to include the type you desire.
@@ -142,6 +164,9 @@ To style the list type using CSS, you need to include the type you desire.
       ![VS Code editor on the left showing list-style-type: square added inside the ul rule highlighted in a red box, and Live Preview on the right displaying the list with square bullet points highlighted in a red box](images/stp13css.png)
 
       *Figure 13. The list-style-type property set to square inside the ul rule, with the list rendered with square bullets in Live Preview.*
+
+    !!! success "Success!"
+        You have modified the list type!
 
 ### Styling Images
 
@@ -161,6 +186,9 @@ This section explains how to style the image width and image height.
 
       *Figure 15. An empty line created between the opening and closing curly braces of the img rule.*
 
+    !!! success "Success!"
+        You have made the base CSS for styling a image!
+
 #### Styling Image Width
 
 To style a image using CSS, you need to include the width you desire in pixels.
@@ -174,6 +202,9 @@ To style a image using CSS, you need to include the width you desire in pixels.
     ???+ tip "How Can I Keep My Image Size Consistent?"
         The easiest way is to use "auto" in place of px. "auto" will maintain the proportions of the image automatically.
 
+    !!! success "Success!"
+        You have modified the image width!
+
 #### Styling Image Height
 
 To style a image using CSS, you need to include the height you desire in pixels.
@@ -184,8 +215,11 @@ To style a image using CSS, you need to include the height you desire in pixels.
 
       *Figure 17. The height property set to 800px inside the img rule, with the image stretched vertically in Live Preview.*
 
+    !!! success "Success!"
+        You have modified the image height!
+
 ## Conclusion
 
 Your website has text color, position, size, a different list type, and image proportions customized. 
 
-If your website does not include or had trouble incorporating these features, please seek the [troubleshooting-guide](../troubleshooting.md#images-not-showing).
+If your website does not include these features, please seek the [troubleshooting-guide](../troubleshooting.md).

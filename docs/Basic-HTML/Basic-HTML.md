@@ -2,9 +2,9 @@
 
 ## Overview
 
-HTML is the standard markup language used for displaying documents in a [web browser](../glossary.md#Web-Browser).
+In order to create you website you need to write code using [HTML](../glossary.md).
 
-This guide demonstrates the foundations of building a basic website. Topics include: headers, paragraphs, lists, links, and images.
+This guide demonstrates the foundations of building a basic website. This includes headers, paragraphs, lists, links, and images.
 
 ## Creating The Project Folder
 

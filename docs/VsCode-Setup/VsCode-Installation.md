@@ -25,6 +25,9 @@ VS Code is the editor you will use to write all of your HTML code.
     !!! info "What Happens Next?"
         The website automatically detects your operating system and suggests the correct version.
 
+    !!! success "Success!"
+        You have downloaded VS Code!
+
 4. **Open** *File Explorer*.
 
 5. **Click** *Downloads*.
@@ -79,4 +82,4 @@ VS Code is the editor you will use to write all of your HTML code.
 
 At this point, you have successfully installed Visual Studio Code.
 
-If your website does not include or had trouble incorporating these features, please seek the [troubleshooting-guide](../troubleshooting.md).
+If your website does not include these features, please seek the [troubleshooting-guide](../troubleshooting.md). 

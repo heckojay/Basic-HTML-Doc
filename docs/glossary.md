@@ -1,5 +1,6 @@
 | Term | Description |
 |------|-------------|
+| `CSS` | Is used to style the appearance of your website.
 | `Emmet` | A VS Code feature that expands shortcuts like `!` into full HTML templates. |
 | `Extension` | A downloadable add-on from the VS Code Extensions Marketplace that adds features such as Live Server. |
 | `File Path` | The location of a file on your computer (e.g., `images/stp1.png`). |

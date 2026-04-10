@@ -1,10 +1,8 @@
 # Introduction
 
-This guide walks you through the essentials of writing HTML (Hypertext Markup Language) using **Visual Studio Code (VS Code)**, a free code editor used by beginners and professionals. HTML is the foundation of every webpage on the internet; it is the language that tells a browser what to display and how to structure it.
+This guide walks you through the essentials of writing [HTML](../glossary.md) (Hypertext Markup Language) using **Visual Studio Code (VS Code)**, a free code editor used by beginners and professionals. HTML is the foundation of every webpage on the internet; it is the language that tells a browser what to display and how to structure it. In order to modify how the website looks, you need [CSS](../glossary.md).
 
 As a Term 1 CST student, this guide is a practical starting point for your web development course. Starting from scratch, you will set up the same coding environment used by professional developers, write your first webpage, and view it in your browser.
-
----
 
 ## Is This Guide For You?
 
@@ -15,16 +13,12 @@ This guide is written for **Term 1 CST students** at BCIT who are new to web dev
 
 If you are already familiar with HTML and VS Code from prior experience, this guide may cover material you already know.
 
----
-
 ## By the End of This Guide, You Will Be Able To
 
 1. Download and set up VS Code
 2. Create a basic webpage using essential HTML tags
 3. Style the webpage using CSS
 4. Preview your webpage live in a browser using VS Code's "Live Preview" extension
-
----
 
 ## Prerequisites
 
@@ -34,8 +28,6 @@ To follow these instructions, you will need:
 - Modern web browser (Google Chrome recommended for consistency with Live Server)
 - Internet access
 
----
-
 ## Typographical Conventions
 
 | Format | Meaning |
@@ -44,7 +36,6 @@ To follow these instructions, you will need:
 | *Italics* | User Interface Elements (e.g. buttons, menus, labels) |
 | `Code` | Code, file names, or text the user must type (e.g. `<h1>`, `index.html`) |
 | [Link](#) | Clickable links to other sections or resources |
-
 
 ## Admonitions
 
@@ -64,5 +55,3 @@ This guide uses success, warning, and note messages to provide additional inform
 !!! info "Note"
 
     Notes provides additional information for a step. It appears in a blue box with a pen icon next to a context label.
-
----

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Before you can write HTML, you need a place to write it. This task walks you through installing **Visual Studio Code (VS Code)** — a free code editor used to write HTML.
+Before you can write HTML, you need a place to write it. This task walks you through installing **Visual Studio Code (VS Code)** — a free code editor used to write HTML.  
 
 ## Download and Install VS Code
 

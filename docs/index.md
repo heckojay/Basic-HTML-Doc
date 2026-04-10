@@ -1,6 +1,6 @@
 # Introduction
 
-This guide walks you through the essentials of writing HTML using **Visual Studio Code (VS Code)**, a free code editor used by beginners and professionals. HTML is the foundation of every webpage on the internet; it is the language that tells a browser what to display and how to structure it.
+This guide walks you through the essentials of writing HTML (Hypertext Markup Language) using **Visual Studio Code (VS Code)**, a free code editor used by beginners and professionals. HTML is the foundation of every webpage on the internet; it is the language that tells a browser what to display and how to structure it.
 
 As a Term 1 CST student, this guide is a practical starting point for your web development course. Starting from scratch, you will set up the same coding environment used by professional developers, write your first webpage, and view it in your browser.
 
@@ -21,7 +21,8 @@ If you are already familiar with HTML and VS Code from prior experience, this gu
 
 1. Download and set up VS Code
 2. Create a basic webpage using essential HTML tags
-3. Preview your webpage live in a browser as you write it using VS Code's Live Preview extension
+3. Style the webpage using CSS
+4. Preview your webpage live in a browser using VS Code's "Live Preview" extension
 
 ---
 
@@ -30,7 +31,8 @@ If you are already familiar with HTML and VS Code from prior experience, this gu
 To follow these instructions, you will need:
 
 - A computer with Windows 10 or Windows 11
-- Google Chrome (recommended for consistency with Live Server)
+- Modern web browser (Google Chrome recommended for consistency with Live Server)
+- Internet access
 
 ---
 

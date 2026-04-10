@@ -16,7 +16,7 @@ Assuming you are still in VS Code, you will look through the extension marketpla
 
 2. **Enter** `Live Server`.
 
-3. **Click** **Install** on the extension with the author: "Ritwick Dey".
+3. **Click** *Install* on the extension with the author: "Ritwick Dey".
 
       ![VS Code Extensions Marketplace showing Live Server typed in the search bar as step 1, with the Live Server extension by Ritwick Dey and its Install button circled as step 2](images/stp2LS.png "Searching for Live Server in the Extensions Marketplace and clicking Install on the extension by Ritwick Dey.")
 
@@ -29,11 +29,11 @@ Assuming you are still in VS Code, you will look through the extension marketpla
         <br>- "vscode-pdf" by "tomoki1207". For displaying PDFs in VS Code.
 
     !!! success "Success"
-    You have installed live server! You should now be able to see Live server in the "Installed" section in "Extensions".
+        You have installed Live Server! You should now be able to see Live Server in the "Installed" section in "Extensions".
 
 ## Open Live Server
 
-Since you have installed "Live Server", you are now able to view your website live!
+Since you have installed Live Server, you are now able to view your website live!
 
 1. **Right-Click** `index.html`.
 
@@ -47,7 +47,7 @@ Since you have installed "Live Server", you are now able to view your website li
         Ensure you are in your folder you have selected in [Creating The Home Page](../Basic-HTML/Basic-HTML.md#creating-the-home-page) and if you cannot find it (or deleted it...), follow the steps in [Creating The Project Folder](../Basic-HTML/Basic-HTML.md#creating-the-project-folder).
 
     !!! success "Success"
-    You have opened your website in "Live Server"! "Live Server" should have opened your web browser.
+        You have opened your website in Live Server! Live Server should have opened your web browser.
 
 ## View Live Server Changes
 

@@ -158,12 +158,12 @@ To style the list type using CSS, you need to include the type you desire.
 
 1. **Enter** `list-style-type: square;`.
 
-    ??? info "Are There Other List Types?"
-        Yes, there are circle (already by default), upper-roman, and lower-alpha.
-
       ![VS Code editor on the left showing list-style-type: square added inside the ul rule highlighted in a red box, and Live Preview on the right displaying the list with square bullet points highlighted in a red box](images/stp13css.png "The list-style-type property set to square inside the ul rule, with the list rendered with square bullets in Live Preview.")
 
       *Figure 13. The list-style-type property set to square inside the ul rule, with the list rendered with square bullets in Live Preview.*
+
+    ??? info "Are There Other List Types?"
+        Yes, there are circle (already by default), upper-roman, and lower-alpha.
 
     !!! success "Success!"
         You have modified the list type!

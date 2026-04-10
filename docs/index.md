@@ -16,7 +16,7 @@ If you are already familiar with HTML and VS Code from prior experience, this gu
 ## By the End of This Guide, You Will Be Able To
 
 1. Download and set up VS Code
-2. Create a basic webpage using essential HTML tags
+2. Create a basic webpage using essential HTML [tags](../glossary.md)
 3. Style the webpage using CSS
 4. Preview your webpage live in a browser using VS Code's "Live Preview" extension
 

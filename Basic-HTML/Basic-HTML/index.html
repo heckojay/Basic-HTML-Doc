@@ -1,0 +1,1011 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://htmluserdocs.ca/Basic-HTML/Basic-HTML/">
+      
+      
+        <link rel="prev" href="../../VsCode-Setup/VsCode-Installation/">
+      
+      
+        <link rel="next" href="../../CSS-Basics/CSS-Basics/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Create Your First Website - HTML User Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#create-your-first-website" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="HTML User Documentation" class="md-header__button md-logo" aria-label="HTML User Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HTML User Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Create Your First Website
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Light Mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Light Mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="white"  aria-label="Dark Mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Dark Mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="HTML User Documentation" class="md-nav__button md-logo" aria-label="HTML User Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    HTML User Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../VsCode-Setup/VsCode-Installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Install Visual Studio Code
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Your First Website
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Your First Website
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-the-project-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating The Project Folder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-the-home-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating The Home Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-html-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing HTML Content
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing HTML Content">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#headers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Headers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paragraphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paragraphs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Images
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CSS-Basics/CSS-Basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Style Your First Website
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Live-Server/Live-Server/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    View Your First Website
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-the-project-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating The Project Folder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-the-home-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating The Home Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-html-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing HTML Content
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing HTML Content">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#headers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Headers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paragraphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paragraphs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Images
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="create-your-first-website">Create Your First Website</h1>
+<h2 id="overview">Overview</h2>
+<p>In order to create you website you need to write code using <a href="../../glossary/">HTML</a>.</p>
+<p>This guide demonstrates the foundations of building a basic website. This includes headers, paragraphs, lists, links, and images.</p>
+<h2 id="creating-the-project-folder">Creating The Project Folder</h2>
+<p>Before building your website, you may need a dedicated folder to store all your files. Doing so encourages cleanliness and easier management of your website.</p>
+<ol>
+<li>
+<p><strong>Open</strong> <em>File Explorer</em> by <strong>clicking</strong> <em>File Explorer</em>.</p>
+<p><img alt="Windows 11 taskbar with the File Explorer icon highlighted in red" src="../images/stp1.png" title="File Explorer Highlighted In Red" /></p>
+<p><em>Figure 1. The File Explorer icon on the Windows 11 taskbar.</em></p>
+<details class="warning">
+<summary>I Do <strong>Not</strong> Have File Explorer Here!</summary>
+<p>File Explorer can be found by <strong>clicking</strong> the search function, and <strong>entering</strong> File Explorer.</p>
+</details>
+</li>
+<li>
+<p><strong>Click</strong> your drive.</p>
+<p><img alt="File Explorer window showing the Home screen with Acer (C:) highlighted in a red box in the left sidebar" src="../images/stp2.png" /></p>
+<p><em>Figure 2. File Explorer Home screen with Acer (C:) drive selected in the left panel.</em></p>
+<div class="admonition tip">
+<p class="admonition-title">Why Use My Drive?</p>
+<p>This is to simplify the searching process in order to find your website and avoid conflicts with OneDrive.</p>
+</div>
+</li>
+<li>
+<p><strong>Click</strong> the <em>New</em> dropdown.</p>
+</li>
+<li>
+<p><strong>Click</strong> <em>Create</em>.</p>
+<p><img alt="File Explorer window on Acer C: drive with the New button circled as step 1 and the Folder option in the dropdown circled as step 2" src="../images/stp3.png" /></p>
+<p><em>Figure 3. Clicking New then selecting Folder to create a new folder on the C: drive.</em></p>
+</li>
+<li>
+<p><strong>Enter</strong> a name. <br> Ensure to <em>not</em> include <em>symbols</em> or <em>numbers</em> in your folder name.</p>
+<p><img alt="File Explorer showing a newly created folder named myWebsite highlighted in a red box at the top of the file list" src="../images/stp4.png" /></p>
+<p><em>Figure 4. The newly created myWebsite folder appearing in the C: drive.</em></p>
+<div class="admonition success">
+<p class="admonition-title">Success!</p>
+<p>Well Done! You have made a folder!</p>
+</div>
+</li>
+</ol>
+<h2 id="creating-the-home-page">Creating The Home Page</h2>
+<p>At this point, you should have an empty folder and <em>should</em> be aware of the location of it. </p>
+<ol>
+<li>
+<p><strong>Click</strong> the search function.</p>
+</li>
+<li>
+<p><strong>Enter</strong> <em>VS Code</em>.</p>
+<p><img alt="VS Code Welcome screen showing the Open Folder option highlighted with a red box and cursor hovering over it" src="../images/stp5.gif" /></p>
+<p><em>Figure 5. The VS Code Welcome screen with Open Folder selected from the Start menu.</em></p>
+</li>
+<li>
+<p><strong>Click</strong> <em>Open Folder</em>.</p>
+<p><img alt="VS Code Open Folder dialog showing Acer C: drive selected as step 1, myWebsite folder selected as step 2, and the Select Folder button circled as step 3" src="../images/stp6.png" /></p>
+<p><em>Figure 6. Navigating to and selecting the myWebsite folder in the VS Code Open Folder dialog.</em></p>
+</li>
+<li>
+<p><strong>Click</strong> your drive.</p>
+</li>
+<li>
+<p><strong>Click</strong> your folder.</p>
+</li>
+<li>
+<p><strong>Click</strong> <em>Select Folder</em>.</p>
+<p><img alt="VS Code Explorer panel showing MYWEBSITE as the open folder with the New File icon circled as step 1 and index.html being typed as the file name as step 2" src="../images/stp7.png" /></p>
+<p><em>Figure 7. The myWebsite folder successfully opened in VS Code.</em></p>
+</li>
+<li>
+<p><strong>Click</strong> the <em>New File</em> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.11 0-2 .89-2 2v16c0 1.11.89 2 2 2h7.81c-.53-.91-.81-1.95-.81-3 0-3.31 2.69-6 6-6 .34 0 .67.03 1 .08V8zm-1 7V3.5L18.5 9zm10 11h-3v3h-2v-3h-3v-2h3v-3h2v3h3z"/></svg></span> icon.</p>
+</li>
+<li>
+<p><strong>Enter</strong> <code>index.html</code>.</p>
+<p><img alt="VS Code editor showing index.html open with a placeholder prompt reading Generate code or select a language" src="../images/stp8.png" /></p>
+<p><em>Figure 8. The empty index.html file open in VS Code, ready for content.</em></p>
+</li>
+<li>
+<p><strong>Press</strong> <em>Enter</em>.</p>
+</li>
+<li>
+<p><strong>Double-Click</strong> <code>index.html</code>.</p>
+<div class="admonition success">
+<p class="admonition-title">Success!</p>
+<p>You have created a folder and have selected your HTML file in VS Code!</p>
+</div>
+</li>
+</ol>
+<h2 id="writing-html-content">Writing HTML Content</h2>
+<h3 id="template">Template</h3>
+<p>VS Code helps making a website. This is due to the simplicity and <a href="../../glossary/#extention">extensions</a> it has.
+For example, VS Code allows a simple template to start off with.</p>
+<ol>
+<li>
+<p><strong>Enter</strong> <code>!</code>.</p>
+<p><img alt="VS Code editor showing the HTML Emmet template auto-generated after typing an exclamation mark" src="../images/stp9.gif" /></p>
+<p><em>Figure 9. The Emmet template generated by typing ! in index.html.</em></p>
+<details class="note">
+<summary>What Is The <code>!</code> ?</summary>
+<p>The <code>!</code> automatically generates a template thanks to <a href="../../glossary/#emmet">Emmet</a>, a <em>built-in</em> extension to VS Code.</p>
+</details>
+<div class="admonition success">
+<p class="admonition-title">Success!</p>
+<p>You have created a template for your website.</p>
+</div>
+</li>
+</ol>
+<h3 id="headers">Headers</h3>
+<p>To implement headers in your website, you need to include the <code>&lt;h1&gt;</code> <a href="../../glossary/">tags</a>.</p>
+<ol>
+<li>
+<p><strong>Enter</strong> <code>&lt;h1&gt;</code>.</p>
+</li>
+<li>
+<p><strong>Type</strong> your desired text.</p>
+<p><img alt="VS Code editor showing h1, h2, and h3 header tags" src="../images/stp10.png" /></p>
+<p><em>Figure 10. Header tags added inside the body with their rendered output.</em></p>
+<details class="info" open="open">
+<summary>What Does The Tag Mean?</summary>
+<p>Everything together in <code>&lt;h1&gt;</code> is called a tag.</p>
+</details>
+<div class="admonition success">
+<p class="admonition-title">Success!</p>
+<p>You have created a header for your website.</p>
+</div>
+</li>
+</ol>
+<h3 id="paragraphs">Paragraphs</h3>
+<p>To implement headers in your website, you need to include the <code>&lt;p&gt;</code> tags.</p>
+<ol>
+<li>
+<p><strong>Enter</strong> <code>&lt;p&gt;</code>.</p>
+<p><img alt="VS Code editor showing a paragraph tag" src="../images/stp11.png" /></p>
+<p><em>Figure 11. A paragraph tag added inside the body.</em></p>
+<div class="admonition success">
+<p class="admonition-title">Success!</p>
+<p>You have created a paragraph for your website.</p>
+</div>
+</li>
+</ol>
+<h3 id="lists">Lists</h3>
+<p>To implement lists in your website, you need to include the <code>&lt;ul&gt;</code> tags.</p>
+<ol>
+<li>
+<p><strong>Enter</strong> <code>&lt;ul&gt;</code>.</p>
+</li>
+<li>
+<p><strong>Close</strong> the <a href="../../glossary/">opening tag</a>.</p>
+</li>
+<li>
+<p><strong>Press</strong> <em>Enter</em>.</p>
+<p><img alt="VS Code editor showing a ul opening and closing tag" src="../images/stp12.gif" /></p>
+<p><em>Figure 12. The ul tag ready for list items.</em></p>
+<details class="info">
+<summary>What Is An Unordered List?</summary>
+<p>An unordered list is known as bullets.</p>
+</details>
+</li>
+<li>
+<p><strong>Enter</strong> <code>&lt;li&gt;</code>.</p>
+<p><img alt="VS Code editor showing a completed li tag" src="../images/stp13.gif" /></p>
+<p><em>Figure 13. A list item added inside the ul tags.</em></p>
+<div class="admonition success">
+<p class="admonition-title">Success!</p>
+<p>You have created a lists for your website.</p>
+</div>
+</li>
+</ol>
+<h3 id="images">Images</h3>
+<p>To style implement lists in your website, you need to include the <code>&lt;img&gt;</code> tags.</p>
+<ol>
+<li>
+<p><strong>Enter</strong> <code>&lt;img</code>.</p>
+<p><img alt="VS Code editor showing the opening img tag" src="../images/stp14.png" /></p>
+<p><em>Figure 14. The opening img tag.</em></p>
+</li>
+<li>
+<p><strong>Enter</strong> a space.</p>
+</li>
+<li>
+<p><strong>Enter</strong> <code>src=</code>.</p>
+<p><img alt="VS Code editor showing img src= entered" src="../images/stp15.png" /></p>
+<p><em>Figure 15. The src attribute added to the img tag.</em></p>
+<details class="info">
+<summary>What Does The Tag Mean?</summary>
+<p><code>src=</code> tells the browser where to find the image using a <a href="../../glossary/#file-path">file path</a>.</p>
+</details>
+</li>
+<li>
+<p><strong>Copy</strong> an image link.</p>
+<p><img alt="Google Chrome browser showing an image" src="../images/stp16.jpg" /></p>
+<p><em>Figure 16. Copying the image URL.</em></p>
+</li>
+<li>
+<p><strong>Enter</strong> the link after <code>src=</code>.</p>
+</li>
+<li>
+<p><strong>Enter</strong> <code>&gt;</code>.</p>
+<p><img alt="VS Code editor showing the completed img tag" src="../images/stp17.png" /></p>
+<p><em>Figure 17. The finished image tag.</em></p>
+<details class="warning">
+<summary>My Image Does Not Work!</summary>
+<p>If your image does not work seek the <a href="../../troubleshooting/">troubleshooting-guide</a>.</p>
+</details>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your image should now appear in your browser.</p>
+</div>
+<h2 id="conclusion">Conclusion</h2>
+<p>At this point, your website includes headers, paragraphs, lists, and images.</p>
+<p>If your website does not include these features, please seek the <a href="../../troubleshooting/">troubleshooting-guide</a>. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

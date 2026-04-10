@@ -1,6 +1,6 @@
 # Introduction
 
-This guide walks you through the essentials of writing [HTML](../glossary.md) (Hypertext Markup Language) using **Visual Studio Code (VS Code)**, a free code editor used by beginners and professionals. HTML is the foundation of every webpage on the internet; it is the language that tells a browser what to display and how to structure it. In order to modify how the website looks, you need [CSS](../glossary.md).
+This guide walks you through the essentials of writing [HTML](../glossary.md) (Hypertext Markup Language) using **Visual Studio Code (VS Code)**, a free code editor used by beginners and professionals. HTML is the foundation of every webpage on the internet; it is the language that tells a browser what to display and how to structure it. In order to modify how the website looks, you need [CSS](../glossary.md) (Cascading Style Sheet).
 
 As a Term 1 CST student, this guide is a practical starting point for your web development course. Starting from scratch, you will set up the same coding environment used by professional developers, write your first webpage, and view it in your browser.
 
@@ -30,19 +30,19 @@ To follow these instructions, you will need:
 
 ## Typographical Conventions
 
-| Format | Meaning |
-|-------|--------|
-| **Bold** | Actions (e.g. **Open**, **Click**, **Enter**) |
-| *Italics* | User Interface Elements (e.g. buttons, menus, labels) |
-| `Code` | Code, file names, or text the user must type (e.g. `<h1>`, `index.html`) |
-| [Link](#) | Clickable links to other sections or resources |
+| Format    | Meaning                                                                  |
+| --------- | ------------------------------------------------------------------------ |
+| **Bold**  | Actions (e.g. **Open**, **Click**, **Enter**)                            |
+| _Italics_ | User Interface Elements (e.g. buttons, menus, labels)                    |
+| `Code`    | Code, file names, or text the user must type (e.g. `<h1>`, `index.html`) |
+| [Link](#) | Clickable links to other sections or resources                           |
 
 ## Admonitions
 
 This guide uses success, warning, and note messages to provide additional information for instruction steps.
 
 !!! success "Success"
-    Success provides information about the success outcome of instructions. It appears in a green box with a checkmark icon next to a context label.
+Success provides information about the success outcome of instructions. It appears in a green box with a checkmark icon next to a context label.
 
 !!! warning "Warning"
 

@@ -1,4 +1,4 @@
-# Styling Your First Website
+# Style Your First Website
 
 ## Overview
 
@@ -12,13 +12,13 @@ Before styling your website you need a separate file to store your CSS. This ens
 
 1. **Click** the *New File* :material-file-plus: icon.
 
-      ![VS Code Explorer panel showing the New File icon circled in the MYWEBSITE folder toolbar](images/stp1css.png)
+      ![VS Code Explorer panel showing the New File icon circled in the MYWEBSITE folder toolbar](images/stp1css.png "The New File icon in the VS Code Explorer panel.")
 
       *Figure 1. The New File icon in the VS Code Explorer panel.*
 
 2. **Enter** `style.css`.
 
-      ![VS Code Explorer panel showing style.css being typed as the new file name](images/stp2css.png)
+      ![VS Code Explorer panel showing style.css being typed as the new file name](images/stp2css.png "Entering style.css as the new file name.")
 
       *Figure 2. Entering style.css as the new file name.*
 
@@ -34,13 +34,13 @@ Your CSS file will *not* work unless it is connected to your HTML file.
 
 1. **Open** `index.html`.
 
-      ![VS Code Explorer panel showing index.html and style.css listed under MYWEBSITE with index.html selected](images/stp3css.png)
+      ![VS Code Explorer panel showing index.html and style.css listed under MYWEBSITE with index.html selected](images/stp3css.png "The index.html file selected in the VS Code Explorer panel.")
 
       *Figure 3. The index.html file selected in the VS Code Explorer panel.*
 
 2. **Enter** `<link rel="stylesheet" href="style.css">`.
 
-      ![VS Code editor showing index.html with a completed HTML page including headings, a list, and an image tag, alongside the style.css tab open](images/stp4css.gif)
+      ![VS Code editor showing index.html with a completed HTML page including headings, a list, and an image tag, alongside the style.css tab open](images/stp4css.gif "The link tag connecting style.css added inside the head of index.html.")
 
       *Figure 4. The link tag connecting style.css added inside the head of index.html.*
 
@@ -59,7 +59,7 @@ This section explains how to style text color, text position, and text size.
 
 1. **Open** `style.css`.
 
-      ![VS Code Explorer panel showing style.css highlighted in a red box under MYWEBSITE](images/stp5css.png)
+      ![VS Code Explorer panel showing style.css highlighted in a red box under MYWEBSITE](images/stp5css.png "The style.css file selected in the VS Code Explorer panel.")
 
       *Figure 5. The style.css file selected in the VS Code Explorer panel.*
 
@@ -67,7 +67,7 @@ This section explains how to style text color, text position, and text size.
 
 3. **Enter** `{`.
 
-      ![VS Code editor showing h1 followed by an opening curly brace typed on line 1 of style.css](images/stp6css.png)
+      ![VS Code editor showing h1 followed by an opening curly brace typed on line 1 of style.css](images/stp6css.png "The h1 selector with an opening curly brace entered in style.css.")
 
       *Figure 6. The h1 selector with an opening curly brace entered in style.css.*
 
@@ -76,7 +76,7 @@ This section explains how to style text color, text position, and text size.
 
 4. **Press** *Enter*.
 
-      ![VS Code editor showing h1 with opening and closing curly braces on separate lines with an empty line between them](images/stp7css.png)
+      ![VS Code editor showing h1 with opening and closing curly braces on separate lines with an empty line between them](images/stp7css.png "An empty line created between the opening and closing curly braces of the h1 rule.")
 
       *Figure 7. An empty line created between the opening and closing curly braces of the h1 rule.*
 
@@ -89,7 +89,7 @@ To style text using CSS, you need to include the color you desire.
 
 1. **Enter** `color: blue;` <br> (Do not forget to save your code using *Ctrl + S*! )
 
-      ![VS Code editor on the left showing the h1 rule with color: blue added on line 2, and Live Preview on the right displaying the h1 heading in blue text with a red border highlight](images/stp8css.png)
+      ![VS Code editor on the left showing the h1 rule with color: blue added on line 2, and Live Preview on the right displaying the h1 heading in blue text with a red border highlight](images/stp8css.png "The color property set to blue inside the h1 rule, with the heading rendered in blue in Live Preview.")
 
       *Figure 8. The color property set to blue inside the h1 rule, with the heading rendered in blue in Live Preview.*
 
@@ -105,7 +105,7 @@ To style the text position using CSS, you need to include the alignment you desi
 
 1. **Enter** `text-align: center;` below color.
 
-      ![VS Code editor on the left showing text-align: center added on line 3 of the h1 rule highlighted in a red box, and Live Preview on the right displaying the heading centered on the page](images/stp9css.png)
+      ![VS Code editor on the left showing text-align: center added on line 3 of the h1 rule highlighted in a red box, and Live Preview on the right displaying the heading centered on the page](images/stp9css.png "The text-align property set to center inside the h1 rule, with the heading centered in Live Preview.")
 
       *Figure 9. The text-align property set to center inside the h1 rule, with the heading centered in Live Preview.*
 
@@ -121,7 +121,7 @@ To style text size using CSS, you need to include the size you desire in pixels.
 
 1. **Enter** `font-size: 16px;` below text-align.
 
-      ![VS Code editor on the left showing font-size: 16px added on line 4 of the h1 rule highlighted in a red box, and Live Preview on the right displaying the smaller centered blue heading](images/stp10css.png)
+      ![VS Code editor on the left showing font-size: 16px added on line 4 of the h1 rule highlighted in a red box, and Live Preview on the right displaying the smaller centered blue heading](images/stp10css.png "The font-size property set to 16px inside the h1 rule, with the heading rendered at the new size in Live Preview.")
 
       *Figure 10. The font-size property set to 16px inside the h1 rule, with the heading rendered at the new size in Live Preview.*
 
@@ -139,13 +139,13 @@ This section explains how to style the list type.
 
 2. **Enter** `{`.
 
-      ![VS Code editor showing ul followed by an opening curly brace typed below the h1 rule in style.css](images/stp11css.png)
+      ![VS Code editor showing ul followed by an opening curly brace typed below the h1 rule in style.css](images/stp11css.png "The ul selector with an opening curly brace entered below the h1 rule in style.css.")
 
       *Figure 11. The ul selector with an opening curly brace entered below the h1 rule in style.css.*
 
 3. **Press** *Enter*.
 
-      ![VS Code editor showing ul with opening and closing curly braces on separate lines with an empty line between them](images/stp12css.png)
+      ![VS Code editor showing ul with opening and closing curly braces on separate lines with an empty line between them](images/stp12css.png "An empty line created between the opening and closing curly braces of the ul rule.")
 
       *Figure 12. An empty line created between the opening and closing curly braces of the ul rule.*
 
@@ -161,7 +161,7 @@ To style the list type using CSS, you need to include the type you desire.
     ??? info "Are There Other List Types?"
         Yes, there are circle (already by default), upper-roman, and lower-alpha.
 
-      ![VS Code editor on the left showing list-style-type: square added inside the ul rule highlighted in a red box, and Live Preview on the right displaying the list with square bullet points highlighted in a red box](images/stp13css.png)
+      ![VS Code editor on the left showing list-style-type: square added inside the ul rule highlighted in a red box, and Live Preview on the right displaying the list with square bullet points highlighted in a red box](images/stp13css.png "The list-style-type property set to square inside the ul rule, with the list rendered with square bullets in Live Preview.")
 
       *Figure 13. The list-style-type property set to square inside the ul rule, with the list rendered with square bullets in Live Preview.*
 
@@ -176,13 +176,13 @@ This section explains how to style the image width and image height.
 
 2. **Enter** `{`.
 
-      ![VS Code editor showing img followed by an opening curly brace typed below the ul rule in style.css](images/stp14css.png)
+      ![VS Code editor showing img followed by an opening curly brace typed below the ul rule in style.css](images/stp14css.png "The img selector with an opening curly brace entered below the ul rule in style.css.")
 
       *Figure 14. The img selector with an opening curly brace entered below the ul rule in style.css.*
 
 3. **Press** *Enter*.
 
-      ![VS Code editor showing img with opening and closing curly braces on separate lines with an empty line between them](images/stp15css.png)
+      ![VS Code editor showing img with opening and closing curly braces on separate lines with an empty line between them](images/stp15css.png "An empty line created between the opening and closing curly braces of the img rule.")
 
       *Figure 15. An empty line created between the opening and closing curly braces of the img rule.*
 
@@ -195,7 +195,7 @@ To style a image using CSS, you need to include the width you desire in pixels.
 
 1. **Enter** `width: 300px;`.
 
-      ![VS Code editor on the left showing width: 300px added inside the img rule highlighted in a red box, and Live Preview on the right displaying the cat image resized to 300px wide with a red border highlight](images/stp16css.png)
+      ![VS Code editor on the left showing width: 300px added inside the img rule highlighted in a red box, and Live Preview on the right displaying the cat image resized to 300px wide with a red border highlight](images/stp16css.png "The width property set to 300px inside the img rule, with the image resized in Live Preview.")
 
       *Figure 16. The width property set to 300px inside the img rule, with the image resized in Live Preview.*
 
@@ -211,7 +211,7 @@ To style a image using CSS, you need to include the height you desire in pixels.
 
 1. **Enter** `height: 800px;`.
 
-      ![VS Code editor on the left showing height: 800px added inside the img rule highlighted in a red box, and Live Preview on the right displaying the cat image stretched vertically to 800px](images/stp17css.png)
+      ![VS Code editor on the left showing height: 800px added inside the img rule highlighted in a red box, and Live Preview on the right displaying the cat image stretched vertically to 800px](images/stp17css.png "The height property set to 800px inside the img rule, with the image stretched vertically in Live Preview.")
 
       *Figure 17. The height property set to 800px inside the img rule, with the image stretched vertically in Live Preview.*
 

@@ -1,4 +1,4 @@
-# Live Server
+# View Your First Website
 
 ## Overview
 
@@ -10,7 +10,7 @@ Assuming you are still in VS Code, you will look through the extension marketpla
 
 1. **Click** the *Extensions* :material-crop-square: icon.
 
-      ![VS Code left sidebar showing the Extensions icon highlighted in a red box with a tooltip reading Extensions Ctrl+Shift+X](images/stp1LS.png)
+      ![VS Code left sidebar showing the Extensions icon highlighted in a red box with a tooltip reading Extensions Ctrl+Shift+X](images/stp1LS.png "The Extensions icon in the VS Code left sidebar.")
 
       *Figure 1. The Extensions icon in the VS Code left sidebar.*
 
@@ -18,7 +18,7 @@ Assuming you are still in VS Code, you will look through the extension marketpla
 
 3. **Click** **Install** on the extension with the author: "Ritwick Dey".
 
-      ![VS Code Extensions Marketplace showing Live Server typed in the search bar as step 1, with the Live Server extension by Ritwick Dey and its Install button circled as step 2](images/stp2LS.png)
+      ![VS Code Extensions Marketplace showing Live Server typed in the search bar as step 1, with the Live Server extension by Ritwick Dey and its Install button circled as step 2](images/stp2LS.png "Searching for Live Server in the Extensions Marketplace and clicking Install on the extension by Ritwick Dey.")
 
       *Figure 2. Searching for Live Server in the Extensions Marketplace and clicking Install on the extension by Ritwick Dey.*
 
@@ -39,7 +39,7 @@ Since you have installed "Live Server", you are now able to view your website li
 
 2. **Click** *Open With Live Server*.
 
-      ![VS Code context menu showing index.html highlighted as step 1 and Open with Live Server highlighted as step 2 with the cursor hovering over it](images/stp3LS.png)
+      ![VS Code context menu showing index.html highlighted as step 1 and Open with Live Server highlighted as step 2 with the cursor hovering over it](images/stp3LS.png "Right-clicking index.html and selecting Open with Live Server from the context menu.")
 
       *Figure 3. Right-clicking index.html and selecting Open with Live Server from the context menu.*
 
@@ -61,7 +61,7 @@ To confirm Live Server is working, make a small change to your webpage and save 
 
 At this point, your browser should update to reflect this change.
 
-![VS Code editor showing index.html open with a complete HTML page including h1, h2, ul list items, and an img tag, with the cursor on line 16 inside the ul tags ready for editing](images/stp5LS.gif)
+![VS Code editor showing index.html open with a complete HTML page including h1, h2, ul list items, and an img tag, with the cursor on line 16 inside the ul tags ready for editing](images/stp5LS.gif "The index.html file open in VS Code, ready to edit and opened in browser to view live changes.")
 
 *Figure 4. The index.html file open in VS Code, ready to edit and opened in browser to view live changes.*
 
@@ -72,4 +72,4 @@ At this point, your browser should update to reflect this change.
 
 At this point, you have the ability to view changes to your website live.
 
-If your website does not include these features, please seek the [troubleshooting-guide](../troubleshooting.md). 
+If your website does not include these features, please seek the [troubleshooting-guide](../troubleshooting.md).

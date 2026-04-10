@@ -1,4 +1,4 @@
-# Your First Website
+# Create Your First Website
 
 ## Overview
 
@@ -12,7 +12,7 @@ Before building your website, you may need a dedicated folder to store all your 
 
 1. **Open** *File Explorer* by **clicking** *File Explorer*.
 
-    ![Windows 11 taskbar with the File Explorer icon highlighted in red](images/stp1.png)
+    ![Windows 11 taskbar with the File Explorer icon highlighted in red](images/stp1.png "File Explorer Highlighted In Red")
 
     *Figure 1. The File Explorer icon on the Windows 11 taskbar.*
 
